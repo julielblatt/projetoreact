@@ -4,7 +4,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background: linear-gradient(135deg, #86c8ff, #f09191); /* Gradient de azul para vermelho como plano de fundo */
+  background: linear-gradient(135deg, #86c8ff, #f09191);
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
   margin: 0 auto;
   text-align: center;
   font-family: Arial, sans-serif;
-  background: linear-gradient(45deg, #ffffff, #ffffff); /* Gradient de cinza claro para branco como plano de fundo do conteúdo */
+  background: linear-gradient(45deg, #ffffff, #ffffff);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -29,7 +29,7 @@ input {
 button {
   margin-top: 10px;
   padding: 10px 20px;
-  background: linear-gradient(135deg, #1e4619, #009933); /* Gradient de azul para azul escuro como plano de fundo do botão */
+  background: linear-gradient(135deg, #1e4619, #009933); 
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -49,11 +49,11 @@ ul {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  background: linear-gradient(45deg, #066ef5, #bd4d9b); /* Gradient de cinza claro para branco como plano de fundo dos itens da lista */
+  background: linear-gradient(45deg, #066ef5, #bd4d9b); 
 }
 
 .todo-item button {
-  background: linear-gradient(135deg, #080808, #f70000); /* Gradient de vermelho para vermelho escuro como plano de fundo do botão */
+  background: linear-gradient(135deg, #080808, #f70000); 
   color: #fff;
   border: none;
   border-radius: 5px;
