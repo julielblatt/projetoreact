@@ -12,7 +12,7 @@ body {
   margin: 0 auto;
   text-align: center;
   font-family: Arial, sans-serif;
-  background: linear-gradient(45deg, #ffffff, #ffffff);
+  background: linear-gradient(135deg, #b3a9ee, #f08989);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -59,4 +59,7 @@ ul {
   border-radius: 5px;
   padding: 5px 10px;
   cursor: pointer;
+}
+.listadetarefas {
+  font-family: Arial, sans-serif
 }

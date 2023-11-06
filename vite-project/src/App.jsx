@@ -15,6 +15,9 @@ let [lista, setLista] = useState([]);
 
   return (
     <div className='container'>
+      <div className='listadetarefas'>
+        <h3>Tarefas</h3>
+      </div>
       <input value={novoItem} onChange={value => setNovoItem(value.target.value)} type="text" />
       <button onClick={adicionarNovoItem}>Adicionar</button>
       <ul className='todo-list'>
