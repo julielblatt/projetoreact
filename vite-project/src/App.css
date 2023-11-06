@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #86c8ff, #f09191); /* Gradient de azul para vermelho como plano de fundo */
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(45deg, #ffffff, #ffffff); /* Gradient de cinza claro para branco como plano de fundo do conteúdo */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #1e4619, #009933); /* Gradient de azul para azul escuro como plano de fundo do botão */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #066ef5, #bd4d9b); /* Gradient de cinza claro para branco como plano de fundo dos itens da lista */
+}
+
+.todo-item button {
+  background: linear-gradient(135deg, #080808, #f70000); /* Gradient de vermelho para vermelho escuro como plano de fundo do botão */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
